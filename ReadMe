@@ -1,0 +1,8 @@
+All you need to include in your file is 
+#include "BridgeList.h"
+
+and you should be able to use
+BridgeList<Datatype> test;
+BridgeList<Datatype>* test = new BridgeList<Datatype>;
+
+to create a bridgelist. Datatype can be replaced with any declared datatype. int, boolean, string, etc
